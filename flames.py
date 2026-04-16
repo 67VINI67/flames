@@ -14,5 +14,5 @@ first_name="".join(first_name)
 second_name=list(input("Enter your second name: ").split(" "))
 second_name="".join(second_name)
 
-flames_obj = flame(first_name,second_name)
+flames_obj = flames(first_name,second_name)
 print(flames_obj) 
